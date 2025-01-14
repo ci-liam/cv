@@ -15,14 +15,7 @@ const CV = () => {
       <section className="mb-8 bg-gray-50 p-6 rounded-lg">
         <h2 className="text-xl font-bold text-gray-800 mb-3">Carta de motivación</h2>
         <p className="text-gray-700 leading-relaxed">
-          Mi relación con la PUCE abarca múltiples dimensiones: como estudiante de pregrado, como docente, 
-          y hasta 2023 como correctora en el Centro de Traducciones. Esta trayectoria me ha permitido 
-          desarrollar un profundo entendimiento de las necesidades educativas de la institución. 
-          Mi maestría en New Media de la Universidad de Leeds me brindó una sólida base en tecnologías 
-          digitales, que he expandido mediante mi trabajo con inteligencia artificial y modelos de lenguaje. 
-          Esta combinación única de experiencia académica, pedagógica y tecnológica me posiciona 
-          idealmente para desarrollar contenido técnico innovador que integre las últimas 
-          tendencias en educación digital.
+        Mi relación con la PUCE abarca múltiples dimensiones: como estudiante de pregrado, como docente de las materias Comunicación Oral y Escrita y Pensamiento y Lenguaje, y hasta 2023 como correctora en el Centro de Traducciones. Esta trayectoria me ha permitido desarrollar un profundo entendimiento de las necesidades educativas de la institución. A lo largo de mi carrera, he desarrollado materiales didácticos para comunicación oral y escrita en diversas instituciones de educación superior y me destaco por mi capacidad para crear contenido que integra teoría y práctica de manera efectiva. Mi experiencia como correctora del Centro de Traducciones y autora de libros de texto me ha permitido desarrollar una comprensión profunda de las necesidades específicas de los estudiantes en el área de comunicación. Mi maestría en New Media de la Universidad de Leeds me brindó una sólida base en tecnologías digitales, que he expandido mediante mi trabajo con inteligencia artificial y modelos de lenguaje. Esta combinación única de experiencia académica, pedagógica y tecnológica me posiciona idealmente para desarrollar contenido técnico innovador que integre las últimas tendencias en educación digital, especialmente en el área de comunicación oral y escrita.
         </p>
       </section>
 
@@ -31,9 +24,9 @@ const CV = () => {
         <h2 className="text-xl font-bold text-gray-800 mb-4">Innovación digital e IA</h2>
         <div className="bg-gray-50 p-6 rounded-lg">
           <ul className="list-disc pl-6 text-gray-700 space-y-3">
-            <li>Experiencia avanzada en el uso y diseño de prompts para modelos de lenguaje como Claude</li>
+            <li>Experiencia avanzada en el uso y diseño de prompts para modelos extensos de lenguaje. </li>
             <li>Becaria de la School of Poetic Computation (NY) para el desarrollo de un proyecto 
-            innovador con Large Language Models</li>
+            innovador con Large Language Models (2024) </li>
             <li>Autora del ensayo "Sobre errores y alucinaciones: la creatividad en generadores de texto y chatbots" 
             (Mil Machetes, 2024)</li>
           </ul>
@@ -48,7 +41,7 @@ const CV = () => {
           <h3 className="font-bold text-gray-700">Editorial Didáctica (2022-2023)</h3>
           <p className="text-gray-600 italic mb-2">Autora de libros educativos</p>
           <ul className="list-disc pl-6 text-gray-700">
-            <li>Desarrollo de cuatro libros de texto para educación básica</li>
+            <li>Desarrollo de cuatro libros de texto para educación secundaria</li>
             <li>Integración de elementos digitales y recursos multimedia</li>
             <li>Diseño de actividades interactivas</li>
           </ul>
@@ -60,7 +53,7 @@ const CV = () => {
           <ul className="list-disc pl-6 text-gray-700">
             <li>Corrección y revisión especializada de textos académicos multilingües</li>
             <li>Docencia en Pensamiento y Lenguaje (Facultad de Educación)</li>
-            <li>Docencia en Comunicación Oral y Escrita (Escuela de Literatura)</li>
+            <li>Docencia en Comunicación Oral y Escrita (Facultad de Comunicación, Lingüística y Literatura)</li>
             <li>Desarrollo de material didáctico digital</li>
           </ul>
         </div>
@@ -119,7 +112,7 @@ const CV = () => {
             </ul>
           </div>
           <div>
-            <h3 className="font-bold text-gray-700 mb-2">Artículos académicos y ensayos</h3>
+            <h3 className="font-bold text-gray-700 mb-2">Artículos académicos, trabajo periodístico y ensayos recientes</h3>
             <ul className="list-disc pl-6 text-gray-700">
               <li><a href="https://milmachetes.info/sobre-errores-y-alucinaciones-la-creatividad-en-generadores-de-texto-y-chatbots/" className="text-blue-600 hover:underline">"Sobre errores y alucinaciones: la creatividad en generadores de texto y chatbots" (2024)</a></li>
               <li><a href="https://revistas.usfq.edu.ec/index.php/anima/article/view/3255" className="text-blue-600 hover:underline">"Impulso poético y trauma en la novela Fiebre de Carnaval" (2024)</a></li>
