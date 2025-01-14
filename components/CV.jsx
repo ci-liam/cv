@@ -15,7 +15,7 @@ const CV = () => {
       <section className="mb-8 bg-gray-50 p-6 rounded-lg">
         <h2 className="text-xl font-bold text-gray-800 mb-3">Carta de motivación</h2>
         <p className="text-gray-700 leading-relaxed">
-        Mi relación con la PUCE abarca múltiples dimensiones: como estudiante de pregrado, como docente de las materias Comunicación Oral y Escrita y Pensamiento y Lenguaje, y hasta 2023 como correctora en el Centro de Traducciones. Esta trayectoria me ha permitido desarrollar un profundo entendimiento de las necesidades educativas de la institución. A lo largo de mi carrera, he desarrollado materiales didácticos para comunicación oral y escrita en diversas instituciones de educación superior y me destaco por mi capacidad para crear contenido que integra teoría y práctica de manera efectiva. Mi experiencia como correctora y autora de libros de texto me ha permitido desarrollar una comprensión profunda de las necesidades específicas de los estudiantes en el área de comunicación. Mi maestría en New Media de la Universidad de Leeds me brindó una sólida base en tecnologías digitales, que he expandido mediante mi trabajo con inteligencia artificial y modelos de lenguaje. Esta combinación única de experiencia académica, pedagógica y tecnológica me posiciona idealmente para desarrollar contenido técnico innovador que integre las últimas tendencias en educación digital, especialmente en el área de comunicación oral y escrita.
+          Mi relación con la PUCE abarca múltiples dimensiones: como estudiante de pregrado, como docente de las materias Comunicación Oral y Escrita y Pensamiento y Lenguaje, y hasta 2023 como correctora en el Centro de Traducciones. Esta trayectoria me ha permitido desarrollar un profundo entendimiento de las necesidades educativas de la institución. A lo largo de mi carrera, he desarrollado materiales didácticos para comunicación oral y escrita en diversas instituciones de educación superior y me destaco por mi capacidad para crear contenido que integra teoría y práctica de manera efectiva. Mi experiencia como correctora y autora de libros de texto me ha permitido desarrollar una comprensión profunda de las necesidades específicas de los estudiantes en el área de comunicación. Mi maestría en New Media de la Universidad de Leeds me brindó una sólida base en tecnologías digitales, que he expandido mediante mi trabajo con inteligencia artificial y modelos de lenguaje. Esta combinación única de experiencia académica, pedagógica y tecnológica me posiciona idealmente para desarrollar contenido técnico innovador que integre las últimas tendencias en educación digital, especialmente en el área de comunicación oral y escrita.
         </p>
       </section>
 
@@ -24,9 +24,9 @@ const CV = () => {
         <h2 className="text-xl font-bold text-gray-800 mb-4">Innovación digital e IA</h2>
         <div className="bg-gray-50 p-6 rounded-lg">
           <ul className="list-disc pl-6 text-gray-700 space-y-3">
-            <li>Experiencia avanzada en el uso y diseño de prompts para modelos extensos de lenguaje. </li>
+            <li>Experiencia avanzada en el uso y diseño de prompts para modelos extensos de lenguaje</li>
             <li>Becaria de la School of Poetic Computation (NY) para el desarrollo de un proyecto 
-            innovador con Large Language Models (2024) </li>
+            innovador con Large Language Models (2024)</li>
             <li>Autora del ensayo "Sobre errores y alucinaciones: la creatividad en generadores de texto y chatbots" 
             (Mil Machetes, 2024)</li>
           </ul>
@@ -112,6 +112,57 @@ const CV = () => {
         </ul>
       </section>
 
+      {/* Technical Skills Section */}
+      <section className="mb-8">
+        <h2 className="text-xl font-bold text-gray-800 mb-4">Competencias técnicas</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="font-bold text-gray-700 mb-2">Idiomas</h3>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Español (Lengua materna)</li>
+              <li>Inglés (TOEFL IBT: 113)</li>
+              <li>Alemán (Sprachdiplom der Kultusministerkonferenz, Stufe II, nivel C1)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-bold text-gray-700 mb-2">Herramientas digitales</h3>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Gestión de entornos virtuales de aprendizaje:
+                <ul className="pl-4 mt-1">
+                  <li>Moodle</li>
+                  <li>Desire2Learn/Brightspace</li>
+                  <li>Google Classroom</li>
+                  <li>Canvas</li>
+                </ul>
+              </li>
+              <li>Herramientas de productividad académica:
+                <ul className="pl-4 mt-1">
+                  <li>Microsoft Office Suite</li>
+                  <li>Google Workspace</li>
+                  <li>Herramientas de colaboración en línea (Notion)</li>
+                  <li>OJS (Open Journal Systems)</li>
+                  <li>Remnote</li>
+                </ul>
+              </li>
+              <li>Creación y edición de contenido:
+                <ul className="pl-4 mt-1">
+                  <li>Adobe Creative Suite</li>
+                  <li>Datawrapper (Visualización de datos)</li>
+                  <li>Herramientas de edición y corrección digital</li>
+                  <li>Plataformas de creación de contenido interactivo (Canva, Genially, Infogram)</li>
+                </ul>
+              </li>
+              <li>Tecnologías emergentes:
+                <ul className="pl-4 mt-1">
+                  <li>Modelos extensos de lenguaje (GPT, Perplexity, Wolfram Alpha)</li>
+                  <li>Herramientas de inteligencia artificial para educación (Sway, Mindmeister)</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* Publications Section */}
       <section className="mb-8">
         <h2 className="text-xl font-bold text-gray-800 mb-4">Publicaciones destacadas</h2>
@@ -155,60 +206,6 @@ const CV = () => {
         </ul>
       </section>
     </div>
-
-{/* Technical Skills Section */}
-<section className="mb-8">
-        <h2 className="text-xl font-bold text-gray-800 mb-4">Competencias técnicas</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div>
-            <h3 className="font-bold text-gray-700 mb-2">Idiomas</h3>
-            <ul className="list-disc pl-6 text-gray-700 space-y-2">
-              <li>Español (Lengua materna)</li>
-              <li>Inglés (TOEFL IBT: 113)</li>
-              <li>Alemán (Sprachdiplom der Kultusministerkonferenz, Stufe II, nivel C1)</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-bold text-gray-700 mb-2">Herramientas digitales</h3>
-            <ul className="list-disc pl-6 text-gray-700 space-y-2">
-              <li>Gestión de entornos virtuales de aprendizaje:
-                <ul className="pl-4 mt-1">
-                  <li>Moodle </li>
-                  <li>Desire2Learn/Brightspace</li>
-                  <li>Google Classroom</li>
-                  <li>Canvas</li>
-                </ul>
-              </li>
-              <li>Herramientas de productividad académica:
-                <ul className="pl-4 mt-1">
-                  <li>Microsoft Office Suite</li>
-                  <li>Google Workspace</li>
-                  <li>Herramientas de colaboración en línea (Notion)</li>
-                  <li>OJS (Open Journal Systems)</li>
-                  <li>Remnote</li>
-                </ul>
-              </li>
-              <li>Creación y edición de contenido:
-                <ul className="pl-4 mt-1">
-                  <li>Adobe Creative Suite</li>
-                  <li>Datawrapper (Visualización de datos)</li>
-                  <li>Herramientas de edición y corrección digital</li>
-                  <li>Plataformas de creación de contenido interactivo (Canva, Genially, Infogram)</li>
-                </ul>
-              </li>
-              <li>Tecnologías emergentes:
-                <ul className="pl-4 mt-1">
-                  <li>Modelos extensos de lenguaje (GPT, Perplexity, Wolfram Alpha) </li>
-                  <li>Herramientas de inteligencia artificial para educación (Sway, Mindmeister)</li>
-                  
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-
   );
 };
 
