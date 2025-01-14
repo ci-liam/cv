@@ -48,7 +48,7 @@ const CV = () => {
         </div>
 
         <div className="mb-6">
-          <h3 className="font-bold text-gray-700">Deutsche Welle Akademie, GIZ, UDLA (04/2022-08/2022)</h3>
+          <h3 className="font-bold text-gray-700">Deutsche Welle Akademie, GIZ, UDLA (2022)</h3>
           <p className="text-gray-600 italic mb-2">Fellow del Proyecto Desenredatos</p>
           <ul className="list-disc pl-6 text-gray-700">
             <li>Ganadora de una beca para escribir un reportaje de periodismo de datos</li>
