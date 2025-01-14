@@ -140,7 +140,7 @@ const CV = () => {
         <h2 className="text-xl font-bold text-gray-800 mb-4">Formación académica</h2>
         <ul className="text-gray-700 space-y-3">
           <li>
-            <span className="font-bold">Maestría en Literatura con mención en Escritura Creativa</span>
+            <span className="font-bold">Maestría en Literatura con mención en Escritura Creativa, Aprobada con distinción</span>
             <br />Universidad Andina Simón Bolívar (2022-2024)
           </li>
           <li>
