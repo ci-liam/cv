@@ -135,6 +135,27 @@ const CV = () => {
         </div>
       </section>
 
+      {/* Education */}
+      <section className="mb-8">
+        <h2 className="text-xl font-bold text-gray-800 mb-4">Formación académica</h2>
+        <ul className="text-gray-700 space-y-3">
+          <li>
+            <span className="font-bold">Maestría en Literatura con mención en Escritura Creativa</span>
+            <br />Universidad Andina Simón Bolívar (2022-2024)
+          </li>
+          <li>
+            <span className="font-bold">Master of Arts in New Media, Distinction</span>
+            <br />University of Leeds (2015-2016)
+            <br />Especialización en cultura digital y nuevas tecnologías
+          </li>
+          <li>
+            <span className="font-bold">Licenciatura en Comunicación</span>
+            <br />Pontificia Universidad Católica del Ecuador (2008-2012)
+          </li>
+        </ul>
+      </section>
+    </div>
+
 {/* Technical Skills Section */}
 <section className="mb-8">
         <h2 className="text-xl font-bold text-gray-800 mb-4">Competencias técnicas</h2>
@@ -187,26 +208,7 @@ const CV = () => {
         </div>
       </section>
 
-      {/* Education */}
-      <section className="mb-8">
-        <h2 className="text-xl font-bold text-gray-800 mb-4">Formación académica</h2>
-        <ul className="text-gray-700 space-y-3">
-          <li>
-            <span className="font-bold">Maestría en Literatura con mención en Escritura Creativa</span>
-            <br />Universidad Andina Simón Bolívar (2022-2024)
-          </li>
-          <li>
-            <span className="font-bold">Master of Arts in New Media, Distinction</span>
-            <br />University of Leeds (2015-2016)
-            <br />Especialización en cultura digital y nuevas tecnologías
-          </li>
-          <li>
-            <span className="font-bold">Licenciatura en Comunicación</span>
-            <br />Pontificia Universidad Católica del Ecuador (2008-2012)
-          </li>
-        </ul>
-      </section>
-    </div>
+
   );
 };
 
