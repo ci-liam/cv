@@ -48,6 +48,19 @@ const CV = () => {
         </div>
 
         <div className="mb-6">
+          <h3 className="font-bold text-gray-700">Deutsche Welle Akademie, GIZ, UDLA (04/2022-08/2022)</h3>
+          <p className="text-gray-600 italic mb-2">Fellow del Proyecto Desenredatos</p>
+          <ul className="list-disc pl-6 text-gray-700">
+            <li>Ganadora de una beca para escribir un reportaje de periodismo de datos</li>
+            <li>Desarrollo del proyecto "Ser una mujer migrante en Ecuador: un camino endurecido por la violencia", publicado en el medio digital Indómita</li>
+            <li>Manejo de bases de datos gubernamentales de acceso abierto y minería de datos</li>
+            <li>Creación de visualizaciones con Datawrapper</li>
+            <li>Participación en una delegación que viajó a Alemania para capacitación en gestión y análisis de datos abiertos</li>
+            <li>Colaboración con instructores internacionales en metodologías de investigación y visualización de datos</li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
           <h3 className="font-bold text-gray-700">PUCE (2018-2023)</h3>
           <p className="text-gray-600 italic mb-2">Correctora del Centro de Traducciones y docente</p>
           <ul className="list-disc pl-6 text-gray-700">
@@ -117,6 +130,58 @@ const CV = () => {
               <li><a href="https://milmachetes.info/sobre-errores-y-alucinaciones-la-creatividad-en-generadores-de-texto-y-chatbots/" className="text-blue-600 hover:underline">"Sobre errores y alucinaciones: la creatividad en generadores de texto y chatbots" (2024)</a></li>
               <li><a href="https://revistas.usfq.edu.ec/index.php/anima/article/view/3255" className="text-blue-600 hover:underline">"Impulso poético y trauma en la novela Fiebre de Carnaval" (2024)</a></li>
               <li><a href="https://indomita.media/mujeres-migrantes-violencia-ecuador/" className="text-blue-600 hover:underline">"Ser mujer migrante en Ecuador: un camino endurecido por la violencia" (2022)</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+{/* Technical Skills Section */}
+<section className="mb-8">
+        <h2 className="text-xl font-bold text-gray-800 mb-4">Competencias técnicas</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="font-bold text-gray-700 mb-2">Idiomas</h3>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Español (Lengua materna)</li>
+              <li>Inglés (TOEFL IBT: 113)</li>
+              <li>Alemán (Sprachdiplom der Kultusministerkonferenz, Stufe II, nivel C1)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-bold text-gray-700 mb-2">Herramientas digitales</h3>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Gestión de entornos virtuales de aprendizaje:
+                <ul className="pl-4 mt-1">
+                  <li>Moodle </li>
+                  <li>Desire2Learn/Brightspace</li>
+                  <li>Google Classroom</li>
+                  <li>Canvas</li>
+                </ul>
+              </li>
+              <li>Herramientas de productividad académica:
+                <ul className="pl-4 mt-1">
+                  <li>Microsoft Office Suite</li>
+                  <li>Google Workspace</li>
+                  <li>Herramientas de colaboración en línea (Notion)</li>
+                  <li>OJS (Open Journal Systems)</li>
+                  <li>Remnote</li>
+                </ul>
+              </li>
+              <li>Creación y edición de contenido:
+                <ul className="pl-4 mt-1">
+                  <li>Adobe Creative Suite</li>
+                  <li>Datawrapper (Visualización de datos)</li>
+                  <li>Herramientas de edición y corrección digital</li>
+                  <li>Plataformas de creación de contenido interactivo (Canva, Genially, Infogram)</li>
+                </ul>
+              </li>
+              <li>Tecnologías emergentes:
+                <ul className="pl-4 mt-1">
+                  <li>Modelos extensos de lenguaje (GPT, Perplexity, Wolfram Alpha) </li>
+                  <li>Herramientas de inteligencia artificial para educación (Sway, Mindmeister)</li>
+                  
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
